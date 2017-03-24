@@ -4,7 +4,7 @@
  * All credit still goes to Martin and any issues/complaints/questions to me. *
  ******************************************************************************/
 
-var TO_ADDRESS = "ramgopal.rao.m@gmail.com"; // where to send form data
+var TO_ADDRESS = "ramgopal@datalifecycle.com"; // where to send form data
 
 function doPost(e) {
 
