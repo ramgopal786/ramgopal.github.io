@@ -1,15 +1,10 @@
-/******************************************************************************
- * This tutorial is based on the work of Martin Hawksey twitter.com/mhawksey  *
- * But has been simplified and cleaned up to make it more beginner friendly   *
- * All credit still goes to Martin and any issues/complaints/questions to me. *
- ******************************************************************************/
 
-var TO_ADDRESS = "ramgopal@datalifecycle.com"; // where to send form data
+var TO_ADDRESS = "ramgopal@datalifecycle.com"; 
 
 function doPost(e) {
 
   try {
-    Logger.log(e); // the Google Script version of console.log see: Class Logger
+    Logger.log(e);
     MailApp.sendEmail(TO_ADDRESS, "Contact Form Submitted",
                       JSON.stringify(e.parameters));
     // return json success results
